@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { Button } from './componets/Button/Button';
 import Input from './componets/Input/Input';
-import { Layout } from './layout/Menu/Menu';
+import { Layout } from './layout/Menu/Layout';
 import { Cart } from './pages/Cart/Cart';
 import { Error } from './pages/Error/Error';
 import { Menu } from './pages/Menu/Menu';
