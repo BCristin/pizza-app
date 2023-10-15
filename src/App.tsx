@@ -38,7 +38,6 @@ const router = createBrowserRouter([
 				element: <Product />,
 				errorElement: <>Eroare</>,
 				loader: async ({ params }) => {
-					console.log(defer({}));
 					return defer({
 						data: axios
 							.get(`${PREFIX}/products/${params.id}`)
@@ -63,11 +62,11 @@ const router = createBrowserRouter([
 ]);
 function App() {
 	return (
-		<div className="container">
-			<Provider store={store}>
-				<RouterProvider router={router} />
-			</Provider>
-		</div>
+		// <div className="container">
+		<Provider store={store}>
+			<RouterProvider router={router} />
+		</Provider>
+		// </div>
 	);
 }
 
