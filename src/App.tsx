@@ -11,6 +11,7 @@ import { Error } from './pages/Error/Error';
 import { Login } from './pages/Login/Login';
 import { Product } from './pages/Product/Product';
 import { Register } from './pages/Register/Register';
+import { Success } from './pages/Success/Success';
 import { store } from './store/store';
 
 const Menu = lazy(() => import('./pages/Menu/Menu'));
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
 					// return data;
 				},
 			},
+			{ path: '/success', element: <Success /> },
 			{ path: '*', element: <Error /> },
 		],
 	},
