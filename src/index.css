@@ -1,11 +1,11 @@
 :root {
    --font: 'Open Sans', sans-serif;
-   --primary-color: #fE724C;
+   --primary-color: #FE724C;
    --primary-hover-color: #df6442;
    --text-color: #000000;
    --text-secondary-color: #5B5B5E;
    --white-color: #FFFFFF;
-   --separator-color: #D4d6e0;
+   --separator-color: #D4D6E0;
 }
 
 body {
